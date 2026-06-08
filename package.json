@@ -1,23 +1,13 @@
 {
   "name": "gasto-facil",
   "version": "1.0.0",
-  "description": "App de administración de gastos con IA",
-  "main": "app.js",
+  "description": "PWA de administración de gastos con IA",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "setup": "node setup.js",
-    "build": "node scripts/generate-config.js"
+    "build": "echo 'Build completo - contenido estático listo en public/'",
+    "dev": "npx netlify-cli dev"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "ejs": "^3.1.9",
-    "express-session": "^1.17.3",
-    "@supabase/supabase-js": "^2.38.4",
-    "multer": "^1.4.5-lts.1",
     "dotenv": "^16.3.1"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
-  }
+  "devDependencies": {}
 }
